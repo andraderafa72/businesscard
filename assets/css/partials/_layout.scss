@@ -1,7 +1,7 @@
 header {
   height: 20vh;
   width: 100%;
-  background-color: $header-color;
+  background: $header-color;
 }
 
 main {
@@ -78,6 +78,12 @@ main {
     }
     &.youtube-link {
       background-color: $youtube-link;
+    }
+    &.discord-link {
+      background-color: $discord-link;
+    }
+    &.linkedin-link {
+      background-color: $linkedin-link;
     }
     &.custom-link {
       background-color: $custom-link;
